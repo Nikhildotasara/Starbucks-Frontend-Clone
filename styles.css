@@ -1,0 +1,388 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.navbar{
+    width: 100vw;
+    height: 8vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+}
+.navFirst{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    font: white;
+}
+.navSecond{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: 20px;
+}
+.input{
+    outline: none;
+    border: none;
+}
+.profile{
+    border-radius: 50%;
+    border: white;
+    
+}
+
+/* Second */
+
+.second{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(30,57,50);
+    height:90px;
+    color: white;
+    font-size: 22px;
+    font-weight: 200;
+    margin-top: 70px;
+}
+.rewards{
+    margin-right: 360px;
+}
+.knowMore{
+    width: 110px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(30,57,50);
+    color: white;
+    border: 1px solid white;
+    font-size: 15px;
+}
+
+/* third */
+
+.third{
+    margin-top: 40px;
+}
+.handcraftedCurations{
+    font-size: 30px;
+    margin-left: 260px;
+    margin-bottom: 50px;
+    color: rgb(30,57,50);
+}
+
+.handcraftedCurationsProducts{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+}
+.products{
+    width: 110px;
+    height: 120px;
+    border-radius: 100%;
+}
+.products:hover{
+    border: 2px solid rgb(30,57,50);
+}
+.productDescription{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-items: center;
+}
+
+/* Four  */
+
+.fourthOne{
+    display: flex;
+    background-color: rgb(223,196,157);
+    width: 1400px;
+    height: 240px;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 10px;
+}
+
+.cardProperty{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.cardHeading{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.cardPara{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.cardPrice{
+    margin-left: 50px;
+}
+.price{
+    font-weight: bold;
+}
+.cardButton{
+    background-color: rgb(0,117,74);
+    color: white;
+    width: 180px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 900px;
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+.priceAndBuy{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* fifth */
+
+.fifth{
+    width: 1500px;
+    /* background-color: red; */
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.fifthHeading{
+    color: rgb(30,57,50);
+    margin-left: 160px;
+    margin-bottom: 50px;   
+}
+.fifthOne{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(249,249,249);
+    border: 1px solid black;
+    border-radius: 15px;
+    color: white;
+    font-size: 12px;
+    
+}
+.imageInFifthOne{
+    border-radius: 15px;
+}
+.greenBorder{
+    margin-top: 9px;
+    border: 2px solid green;
+    width: 20px;
+    height: 20px;
+}
+.greenDot{
+    margin: 0 auto;
+    margin-top: 4px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: green;
+}
+.fifthOneMainHeading{
+    margin-top: 5px;
+    font-size: 18px;
+    color: black;
+}
+.fifthMain{
+    margin-left: 20px;
+    color: black;
+}
+.shortForm{
+    font-size: 10px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: black;
+}
+.fithMainPara{
+    margin-bottom:40px ;
+}
+.fifthPrice{
+    display: flex;
+    justify-content: space-between;
+}
+.addItem{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(0,117,74);
+    border-radius: 30px;
+    margin-right: 15px;
+    color: white;
+}
+.newLaunch{
+    display: flex;
+    font-size: 12px;
+    color: green;
+    align-items: center;
+}
+
+.fifthCards{
+    width: 1400px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 130px;
+}
+
+
+/* sixth */
+
+.sixth{
+    background-color: rgb(237,235,233);
+    height: 300px;
+    margin-top: 90px;
+}
+.sixthHeading{
+    margin-left: 215px;
+    /* margin-top: 120px;     */
+    padding-top: 10px;
+    color: rgb(30,57,50);
+    margin-bottom: 30px;
+}
+
+.sixthCards{
+    background-color: white;
+    width: 450px;
+
+    height: 150px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.sixthImage{
+    margin-left: 20px;
+    margin-top: 9px;
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+}
+.sixthImageAndLogo{
+    display: flex;
+    flex-direction: row;
+}
+.dishName{
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.sixthDiv{
+    font-weight: bold;
+    width: 220px;
+    margin-left: 20px;
+}
+.sixthAmount{
+    font-size: 12px;
+    font-weight: lighter;   
+}
+.sixthCardsPrice{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.sixthCardsFlex{
+    width: 1450px;
+    margin-left: 220px;
+    display: flex;
+    justify-content: space-between;
+}
+.sixthCardsPriceRs{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.seventh{
+    height: 650px;
+    margin-top: 100px;
+    background-color: rgb(237,235,233);
+}
+.seventhMain{
+    background-color: rgb(237,235,233);
+    color: white;
+    border-radius: 20px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 1500px;
+    background-image: url(Coffeculture_Blog_Web_Banner_2_X_8b72db6546.jpg);
+    background-size: contain;
+    filter:brightness(50%);
+}
+
+.seventhMain:hover{
+    filter: grayscale(1);
+}
+.seventhHeading{
+    margin-left: 210px;
+    color: rgb(30,57,50);
+    margin-bottom: 70px;
+    margin-top: 50px;
+}
+.imageHeading{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.imagePara{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.learnMore{
+    margin-left: 50px;
+    margin-top: 100px;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+/* Eight */
+
+.eight{
+    height: 500px;
+    background-color: rgb(14,56,44);
+    margin-top: 70px;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .aboutUs{
+    height: 200px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+} */
+.responsibility,.quickLinks,.aboutUs,.socialMedia{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.socialMediaIcons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.download{
+    display: flex;
+    flex-direction: column;
+}
